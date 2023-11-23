@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE100BAA2AA07221007B08BD /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE100BA82AA07221007B08BD /* ListTableViewCell.swift */; };
+		FE100BAB2AA07221007B08BD /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE100BA92AA07221007B08BD /* ListTableViewCell.xib */; };
+		FE100BAF2AA0ABB3007B08BD /* ConfirmationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE100BAE2AA0ABB3007B08BD /* ConfirmationModel.swift */; };
+		FE4AD4B92B076902009513CD /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AD4B72B076902009513CD /* RecipeViewController.swift */; };
+		FE4AD4BA2B076902009513CD /* RecipeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4AD4B82B076902009513CD /* RecipeViewController.xib */; };
+		FE7502F82B0DDD6A005211D2 /* Tcell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7502F62B0DDD6A005211D2 /* Tcell3.swift */; };
+		FE7502F92B0DDD6A005211D2 /* Tcell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE7502F72B0DDD6A005211D2 /* Tcell3.xib */; };
 		FE9CD7AF2A9F076D00B91162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CD7AE2A9F076D00B91162 /* AppDelegate.swift */; };
 		FE9CD7B12A9F076D00B91162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CD7B02A9F076D00B91162 /* SceneDelegate.swift */; };
 		FE9CD7B32A9F076D00B91162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CD7B22A9F076D00B91162 /* ViewController.swift */; };
 		FE9CD7B62A9F076D00B91162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9CD7B42A9F076D00B91162 /* Main.storyboard */; };
 		FE9CD7B82A9F076E00B91162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9CD7B72A9F076E00B91162 /* Assets.xcassets */; };
 		FE9CD7BB2A9F076E00B91162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9CD7B92A9F076E00B91162 /* LaunchScreen.storyboard */; };
+		FE9CD7C62A9F07A700B91162 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CD7C42A9F07A700B91162 /* MainViewController.swift */; };
+		FE9CD7C72A9F07A700B91162 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9CD7C52A9F07A700B91162 /* MainViewController.xib */; };
+		FE9CD7CC2A9F09B800B91162 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CD7CA2A9F09B800B91162 /* TableViewCell.swift */; };
+		FE9CD7CD2A9F09B800B91162 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9CD7CB2A9F09B800B91162 /* TableViewCell.xib */; };
+		FE9CD7D12A9F09ED00B91162 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CD7CF2A9F09ED00B91162 /* CollectionViewCell.swift */; };
+		FE9CD7D22A9F09ED00B91162 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9CD7D02A9F09ED00B91162 /* CollectionViewCell.xib */; };
+		FE9CD7D52A9F103700B91162 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CD7D32A9F103700B91162 /* CollectionViewController.swift */; };
+		FE9CD7D62A9F103700B91162 /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9CD7D42A9F103700B91162 /* CollectionViewController.xib */; };
+		FE9CD7E02A9F353000B91162 /* Tcell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CD7DE2A9F353000B91162 /* Tcell2.swift */; };
+		FE9CD7E12A9F353000B91162 /* Tcell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9CD7DF2A9F353000B91162 /* Tcell2.xib */; };
+		FE9CD7E42A9F58C300B91162 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9CD7E22A9F58C300B91162 /* ListViewController.swift */; };
+		FE9CD7E52A9F58C300B91162 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9CD7E32A9F58C300B91162 /* ListViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE100BA82AA07221007B08BD /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		FE100BA92AA07221007B08BD /* ListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		FE100BAE2AA0ABB3007B08BD /* ConfirmationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationModel.swift; sourceTree = "<group>"; };
+		FE4AD4B72B076902009513CD /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		FE4AD4B82B076902009513CD /* RecipeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeViewController.xib; sourceTree = "<group>"; };
+		FE7502F62B0DDD6A005211D2 /* Tcell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tcell3.swift; sourceTree = "<group>"; };
+		FE7502F72B0DDD6A005211D2 /* Tcell3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tcell3.xib; sourceTree = "<group>"; };
 		FE9CD7AB2A9F076D00B91162 /* RecipeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9CD7AE2A9F076D00B91162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE9CD7B02A9F076D00B91162 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +50,18 @@
 		FE9CD7B72A9F076E00B91162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE9CD7BA2A9F076E00B91162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE9CD7BC2A9F076E00B91162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9CD7C42A9F07A700B91162 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FE9CD7C52A9F07A700B91162 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		FE9CD7CA2A9F09B800B91162 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FE9CD7CB2A9F09B800B91162 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		FE9CD7CF2A9F09ED00B91162 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FE9CD7D02A9F09ED00B91162 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		FE9CD7D32A9F103700B91162 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		FE9CD7D42A9F103700B91162 /* CollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		FE9CD7DE2A9F353000B91162 /* Tcell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tcell2.swift; sourceTree = "<group>"; };
+		FE9CD7DF2A9F353000B91162 /* Tcell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tcell2.xib; sourceTree = "<group>"; };
+		FE9CD7E22A9F58C300B91162 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		FE9CD7E32A9F58C300B91162 /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +75,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE100BAC2AA09BEA007B08BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE100BAE2AA0ABB3007B08BD /* ConfirmationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE100BAD2AA0AB89007B08BD /* RecipeView */ = {
+			isa = PBXGroup;
+			children = (
+				FE4AD4B72B076902009513CD /* RecipeViewController.swift */,
+				FE4AD4B82B076902009513CD /* RecipeViewController.xib */,
+			);
+			path = RecipeView;
+			sourceTree = "<group>";
+		};
+		FE7502F52B0DDD4D005211D2 /* Tcell3 */ = {
+			isa = PBXGroup;
+			children = (
+				FE7502F62B0DDD6A005211D2 /* Tcell3.swift */,
+				FE7502F72B0DDD6A005211D2 /* Tcell3.xib */,
+			);
+			path = Tcell3;
+			sourceTree = "<group>";
+		};
 		FE9CD7A22A9F076D00B91162 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +120,8 @@
 		FE9CD7AD2A9F076D00B91162 /* RecipeApp */ = {
 			isa = PBXGroup;
 			children = (
+				FE100BAC2AA09BEA007B08BD /* Model */,
+				FE9CD7C82A9F07AE00B91162 /* View */,
 				FE9CD7AE2A9F076D00B91162 /* AppDelegate.swift */,
 				FE9CD7B02A9F076D00B91162 /* SceneDelegate.swift */,
 				FE9CD7B22A9F076D00B91162 /* ViewController.swift */,
@@ -65,6 +131,69 @@
 				FE9CD7BC2A9F076E00B91162 /* Info.plist */,
 			);
 			path = RecipeApp;
+			sourceTree = "<group>";
+		};
+		FE9CD7C82A9F07AE00B91162 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE7502F52B0DDD4D005211D2 /* Tcell3 */,
+				FE100BAD2AA0AB89007B08BD /* RecipeView */,
+				FE9CD7E62A9F58D300B91162 /* ListVC */,
+				FE9CD7D72A9F105A00B91162 /* CollectionView */,
+				FE9CD7CE2A9F09C800B91162 /* CollectionViewCell */,
+				FE9CD7C92A9F099300B91162 /* TableViewCell */,
+				FE9CD7DD2A9F344600B91162 /* Tcell2 */,
+				FE9CD7C42A9F07A700B91162 /* MainViewController.swift */,
+				FE9CD7C52A9F07A700B91162 /* MainViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE9CD7C92A9F099300B91162 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE9CD7CA2A9F09B800B91162 /* TableViewCell.swift */,
+				FE9CD7CB2A9F09B800B91162 /* TableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		FE9CD7CE2A9F09C800B91162 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE9CD7CF2A9F09ED00B91162 /* CollectionViewCell.swift */,
+				FE9CD7D02A9F09ED00B91162 /* CollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		FE9CD7D72A9F105A00B91162 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FE9CD7D32A9F103700B91162 /* CollectionViewController.swift */,
+				FE9CD7D42A9F103700B91162 /* CollectionViewController.xib */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		FE9CD7DD2A9F344600B91162 /* Tcell2 */ = {
+			isa = PBXGroup;
+			children = (
+				FE9CD7DE2A9F353000B91162 /* Tcell2.swift */,
+				FE9CD7DF2A9F353000B91162 /* Tcell2.xib */,
+			);
+			path = Tcell2;
+			sourceTree = "<group>";
+		};
+		FE9CD7E62A9F58D300B91162 /* ListVC */ = {
+			isa = PBXGroup;
+			children = (
+				FE9CD7E22A9F58C300B91162 /* ListViewController.swift */,
+				FE9CD7E32A9F58C300B91162 /* ListViewController.xib */,
+				FE100BA82AA07221007B08BD /* ListTableViewCell.swift */,
+				FE100BA92AA07221007B08BD /* ListTableViewCell.xib */,
+			);
+			path = ListVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +255,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE9CD7BB2A9F076E00B91162 /* LaunchScreen.storyboard in Resources */,
+				FE9CD7E12A9F353000B91162 /* Tcell2.xib in Resources */,
+				FE9CD7CD2A9F09B800B91162 /* TableViewCell.xib in Resources */,
+				FE9CD7D62A9F103700B91162 /* CollectionViewController.xib in Resources */,
+				FE9CD7D22A9F09ED00B91162 /* CollectionViewCell.xib in Resources */,
+				FE9CD7E52A9F58C300B91162 /* ListViewController.xib in Resources */,
 				FE9CD7B82A9F076E00B91162 /* Assets.xcassets in Resources */,
 				FE9CD7B62A9F076D00B91162 /* Main.storyboard in Resources */,
+				FE9CD7C72A9F07A700B91162 /* MainViewController.xib in Resources */,
+				FE100BAB2AA07221007B08BD /* ListTableViewCell.xib in Resources */,
+				FE7502F92B0DDD6A005211D2 /* Tcell3.xib in Resources */,
+				FE4AD4BA2B076902009513CD /* RecipeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +276,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE9CD7CC2A9F09B800B91162 /* TableViewCell.swift in Sources */,
 				FE9CD7B32A9F076D00B91162 /* ViewController.swift in Sources */,
+				FE9CD7D12A9F09ED00B91162 /* CollectionViewCell.swift in Sources */,
+				FE7502F82B0DDD6A005211D2 /* Tcell3.swift in Sources */,
 				FE9CD7AF2A9F076D00B91162 /* AppDelegate.swift in Sources */,
+				FE100BAF2AA0ABB3007B08BD /* ConfirmationModel.swift in Sources */,
+				FE9CD7D52A9F103700B91162 /* CollectionViewController.swift in Sources */,
+				FE9CD7E42A9F58C300B91162 /* ListViewController.swift in Sources */,
+				FE9CD7E02A9F353000B91162 /* Tcell2.swift in Sources */,
+				FE4AD4B92B076902009513CD /* RecipeViewController.swift in Sources */,
 				FE9CD7B12A9F076D00B91162 /* SceneDelegate.swift in Sources */,
+				FE9CD7C62A9F07A700B91162 /* MainViewController.swift in Sources */,
+				FE100BAA2AA07221007B08BD /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +435,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecipeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +443,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +464,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RecipeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +472,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
