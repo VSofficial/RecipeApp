@@ -15,16 +15,20 @@ class RecipeViewController: UIViewController {
     
     @IBOutlet weak var recipeText: UITextView!
     
-    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        print("running")
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(handleNotification(_:)), name: NSNotification.Name(rawValue: "PassDataNotification"), object: nil)
+        
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
     
         recipeLabel.text = "Dosa"
         recipeText.text = "DosaDosaDosa DosaDosaDosaDosa Dosa Dosa Dosa Dosa Dosa Dosa Dosa DosaDosaDosaDosaDosaDosa Dosa"
-        
-        NotificationCenter.default.addObserver(self, selector: #selector(handleNotification(_:)), name: Notification.Name("PassDataNotification"), object: nil)
-        
         
 
         // Do any additional setup after loading the view.

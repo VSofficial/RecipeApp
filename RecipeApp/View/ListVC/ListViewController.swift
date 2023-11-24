@@ -56,9 +56,9 @@ class ListViewController: UIViewController {
         
         let vc = RecipeViewController()
         
-        let notificationName = Notification.Name("PassDataNotification")
+        let notificationName = Notification.Name(rawValue: "PassDataNotification")
         
-        NotificationCenter.default.post(name: notificationName, object: nil, userInfo: ["data": "Hello, World!"])
+        NotificationCenter.default.post(Notification(name: notificationName, object: nil, userInfo: ["data": "Hello, World!"]))
 
         navigationController?.pushViewController(vc, animated: true)
         
