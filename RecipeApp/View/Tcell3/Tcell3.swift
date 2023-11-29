@@ -49,7 +49,7 @@ class Tcell3: UITableViewCell, UICollectionViewDataSource, UICollectionViewDeleg
                     cell.layer.borderColor = UIColor.red.cgColor // Change border color on selection
                     cell.layer.borderWidth = 2.0
                 }
-        confirmationModel.extra.append(extras[indexPath.row])
+        confirmationModel.veggies.append(extras[indexPath.row])
         
         
         
