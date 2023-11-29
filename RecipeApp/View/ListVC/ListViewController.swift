@@ -40,15 +40,6 @@ class ListViewController: UIViewController {
     }
 
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
     
     
@@ -63,7 +54,6 @@ class ListViewController: UIViewController {
         navigationController?.pushViewController(vc, animated: true)
         
         
-       // vc.self.recipeLabel.text = "hi"
         
     }
     
@@ -75,8 +65,23 @@ extension ListViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return confirmationModel.veggies.count
+        if section == 0 {
+            
+            return confirmationModel.veggies.count
+        }
+        else if section == 1 {
+            
+            return confirmationModel.herbs.count
+        }
+        
+        else if section == 2 {
+            
+            return confirmationModel.extra.count
+        }
+        
+        return Int()
     }
+    
     
     func numberOfSections(in tableView: UITableView) -> Int {
         3

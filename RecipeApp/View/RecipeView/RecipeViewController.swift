@@ -19,8 +19,7 @@ class RecipeViewController: UIViewController {
         
         print("running")
         
-        NotificationCenter.default.addObserver(self, selector: #selector(handleNotification(_:)), name: NSNotification.Name(rawValue: "PassDataNotification"), object: nil)
-        
+       
         
     }
     override func viewDidLoad() {
@@ -30,7 +29,8 @@ class RecipeViewController: UIViewController {
         recipeLabel.text = "Dosa"
         recipeText.text = "DosaDosaDosa DosaDosaDosaDosa Dosa Dosa Dosa Dosa Dosa Dosa Dosa DosaDosaDosaDosaDosaDosa Dosa"
         
-
+        NotificationCenter.default.addObserver(self, selector: #selector(handleNotification(_:)), name: NSNotification.Name(rawValue: "PassDataNotification"), object: nil)
+        
         // Do any additional setup after loading the view.
     }
 
