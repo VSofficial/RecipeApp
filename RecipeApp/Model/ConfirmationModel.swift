@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct ConfirmationModel {
     var veggies: [String]
@@ -19,3 +20,17 @@ var confirmationModel = ConfirmationModel(
     herbs: [],
     extra: []
 )
+
+struct RecipeModel {
+    var recipe: [String]
+    var ingredients: [[String]]
+    var image: [UIImage?]
+}
+
+var recipeModel = RecipeModel(
+    recipe: ["one","two"],
+    ingredients: [["one"],["two"]],
+    image:  [UIImage(named:"spice"),UIImage(named:"spice")]
+)
+
+
