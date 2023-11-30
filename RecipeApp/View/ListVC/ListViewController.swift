@@ -99,29 +99,18 @@ extension ListViewController: UITableViewDataSource, UITableViewDelegate {
         }
         
         else if indexPath.section == 1 {
-            if ((indexPath.row > confirmationModel.herbs.count) || (confirmationModel.herbs.count == 0) ){
-                
-                    cell.label1.text = "none"
-            }
-            
-            else   {
+          
                 cell.label1.text = confirmationModel.herbs[indexPath.row]
                 print(indexPath.row)
                
-            }
-          
-            
             
         }
         
         else if indexPath.section == 2 {
             
-            if ((indexPath.row >= confirmationModel.extra.count) || (confirmationModel.extra == nil)) {
-                cell.label1.text = "none"
-            }
-            else {
+            
                 cell.label1.text = confirmationModel.extra[indexPath.row]
-            }
+            
           
         }
         
