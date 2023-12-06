@@ -45,7 +45,7 @@ class ListViewController: UIViewController {
     
     @IBAction func continuePressed(_ sender: Any) {
         
-        let vc = RecipeViewController()
+        let vc = RecipeVC()
         
         let notificationName = Notification.Name(rawValue: "PassDataNotification")
         
