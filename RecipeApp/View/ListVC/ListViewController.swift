@@ -26,6 +26,31 @@ class ListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let url = "http://127.0.0.1:8000/all/"
+           URLSession.shared.dataTask(with: URL(string: url)!) { (data, res, err) in
+
+               if let d = data {
+                   if let value = String(data: d, encoding: String.Encoding.ascii) {
+
+                       if let jsonData = value.data(using: String.Encoding.utf8) {
+                           do {
+                               let json = try JSONSerialization.jsonObject(with: jsonData, options: [])
+
+                                var results = [RCModelElement]()
+                               if let decodedResponse = try? JSONDecoder().decode(RCModel.self, from: data!) {
+                                   results = decodedResponse
+                                   print("Ho")
+                                   print(results[1].appname)
+                               }
+                           } catch {
+                               NSLog("ERROR \(error.localizedDescription)")
+                           }
+                       }
+                   }
+
+               }
+               }.resume()
+        
         print(confirmationModel)
         //print(confirmationModel.extra.first)
         
